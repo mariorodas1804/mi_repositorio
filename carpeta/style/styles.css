@@ -8,6 +8,7 @@ body{
     grid-template-rows: auto auto auto;
     grid-template-columns: auto;
     min-height: 100vh;
+    background-image: linear-gradient(to right top, #c5bd76, #d0b576, #d8ad7a, #dca681, #dda089);
 }
 .logo{
     position: absolute;
