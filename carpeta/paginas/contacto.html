@@ -11,11 +11,9 @@
 </head>
 <body>
 	<header>
-        <img class="logo" src="../images/logo-de-la-pag.png" alt="">
-		<h1 class="titulo">A MATEAR</h1>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container-fluid">
-			  <a class="navbar-brand" href="../index.html">Inicio</a>
+			  <a class="navbar-brand" href="../index.html"><img class="logo" src="../images/logo-de-la-pag.png" class="rounded float-start" alt=""></a>
 			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
@@ -45,24 +43,45 @@
 <div>
     <section>
         <h2>Contacto</h2>
-        <section>
-            <article id="informacion">
-                <h4 ><img src="../images/facebook-74-189794.webp" alt=""><a class="link" href="https://www.facebook.com/">link</a></h4>
-                <h4 ><img src="../images/instagram-1868978-1583142.png" alt=""><a class="link" href=https://www.instagram.com/">link</a></li> </h4>
-                <h4 ><img src="../images/whatsapp-43-189795.webp" alt=""><a class="link" href="https://web.whatsapp.com/">link</a></h4>
-            </article>
-        </section>
+		<div class="row d-flex justify-content-evenly mt-5 mb-15">
+			<div class="card bg-dark" style="width: 18rem;">
+				<div class="card-body ">
+				  <h6 class="card-title"></h5><img src="../images/facebook-74-189794.webp" alt="">
+				  <p class="card-text">FACEBOOK</p>
+				  <a href="https://www.facebook.com/" class="btn btn-primary">Go somewhere</a>
+				</div>
+			  </div>
+			  <div class="card bg-dark" style="width: 18rem;">
+				<div class="card-body ">
+				  <h6 class="card-title"></h5><img src="../images/instagram-1868978-1583142.png" alt="">
+				  <p class="card-text">INSTAGRAM</p>
+				  <a href="https://www.instagram.com/" class="btn btn-primary">Go somewhere</a>
+				</div>
+			  </div>
+			  <div class="card bg-dark" style="width: 18rem;">
+				<div class="card-body ">
+				  <h6 class="card-title"></h5><img src="../images/whatsapp-43-189795.webp" alt="">
+				  <p class="card-text">WHATSAPP</p>
+				  <a href="https://web.whatsapp.com/" class="btn btn-primary">Go somewhere</a>
+				</div>
+			  </div>
+		</div>
+
         <form class="encuesta" action="">
-            <div>
-                <input type="text" placeholder="Nombre" required>
-            </div>
+			<div class="row g-3">
+				<div class="col">
+				  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+				</div>
+				<div class="col">
+				  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+				</div>
+			  </div>
             <br>
             <div>
-                <label for="">Califícanos y dejanos tu review o opinión:</label>
-            </div>
-            <div>
-                <input type="text" required>
-            </div>
+				<div class="form-floating">
+					<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+					<label for="floatingTextarea2">Comments</label>
+				</div>
             <div>
                 <input type="submit">
                 <input type="reset" value="Reiniciar formulario">
@@ -71,10 +90,12 @@
     </section>
 </div>
 <footer id="pepe">
-    <h3>Gracias por pasarte!
+	<div class="container-fluid bg-dark text center p-3">
+     <h3>Gracias por pasarte!
 
         Que tal te pareció?
-    </h3>        
+     </h3>     
+	</div>   
 </footer>
 	<!-- Option 1: Bootstrap Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

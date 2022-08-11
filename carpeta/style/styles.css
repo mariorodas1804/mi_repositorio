@@ -8,10 +8,9 @@ body{
     grid-template-rows: auto auto auto;
     grid-template-columns: auto;
     min-height: 100vh;
-    background-image: linear-gradient(to right top, #c5bd76, #d0b576, #d8ad7a, #dca681, #dda089);
-}
+    background-image: linear-gradient(to bottom, #c5bd76, #c7ad70, #c59e6e, #bf906e, #b6836f);}
 .logo{
-    position: absolute;
+    position: ;
     width: 90px;
     height: 90px;
 }
@@ -68,43 +67,19 @@ h4{
         align-items: stretch;
     }
 }
-.fila{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-evenly;
-    background-color:#d7ccc8;
-    border: solid #B39157;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-.fila{
-    word-spacing: 210px;
-    font-size: 15px;
-}
-footer{
-    width: 100%;
-    position: relative;
-    background-color:#fff59d;
-    padding: 1em 0;
-    margin-top: auto;
-    display: grid;
-    grid-template-rows: 40px;
-}
-.marron{
-    margin: 0px;
-}
 .encuesta {
     text-align: justify;
     border: solid 2px gray;
     font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 h3{
     padding: 10px;
     text-align:center ;
     position: relative;
         font-size: 14px;
-    color: black;
+    color: whitesmoke;
     font-family: 'Roboto', sans-serif;
 }
 h5{
@@ -248,4 +223,7 @@ right: 400px;
     flex-direction: row;
     justify-content: space-evenly;
     align-content:space-between
+}
+.card-text{
+    color: white;
 }
