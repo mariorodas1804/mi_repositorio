@@ -1,0 +1,230 @@
+@import "variable.scss";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #c5bd76, #c7ad70, #c59e6e, #bf906e, #b6836f);}
+
+header{
+    background-color:#fff59d;
+    width: 100%;
+    .logo{
+        width: 90px;
+        height: 90px;
+    }
+}
+.titulo{
+    margin-right: 120px;
+    position: relative;
+    left: 7vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+color:black;
+font-size: 30px;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+h2{
+    padding-top: 40px;
+    padding-left: 20px;
+    text-align:center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+h4{
+    background-color:#fff59d;
+    padding: 10px;
+    text-align:left ;
+    position: relative;
+        font-size: 14px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.redes{
+    margin: 5px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 99%;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-template-rows: 100% 100%;
+    grid-row-gap: 10px;
+    text-align: start;
+    font-size: 14px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width:768px){
+    .redes{
+        display:grid ;
+        grid-template-rows: auto auto auto;
+        align-items: stretch;
+    }
+}
+.encuesta {
+    text-align: justify;
+    border: solid 2px gray;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+h3{
+    padding: 10px;
+    text-align:center ;
+    position: relative;
+        font-size: 14px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link{
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 20px;
+    bottom: 25px;
+}
+.imagen4{
+    left: 302px;
+}
+.visualizacionmates{
+    display: grid;
+    justify-items:stretch;
+    align-items: center;
+    width: 99%;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 10px;
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+}
+.visualizacioncombo{
+    margin-top: 50px;
+}
+.descripcion{
+    text-align:center ;
+        font-size: 18px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.stock{
+    text-align: right;
+        font-size: 14px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.camionero{
+    width: $imagesize;
+    height: $imagesize;
+    border: $imageborder;
+}
+.mategral{
+    width: $imagesize;
+    height: $imagesize;
+    border: $imageborder;
+}
+.imperial{
+    width: $imagesize;
+    height: $imagesize;
+    border: $imageborder;
+}
+.bombillametal{
+    width: $imagesize;
+    height: $imagesize;
+    border: $imageborder;
+}
+.personalizadas{
+    width: $imagesize;
+    height: $imagesize;
+    border: $imageborder;
+}
+.bombillaregular{
+    width: $imagesize;
+    height: $imagesize;
+    border: $imageborder;
+}
+.picoloro{
+    width: $imagesize;
+    height: $imagesize;
+    border: $imageborder;
+}
+.termoacero{
+    width: $imagesize;
+    height: $imagesize;
+    border: $imageborder;
+}
+.combo1{
+    width: $imagesize;
+    height: $imagesize;
+    border: $imageborder;
+}
+.comboloco1{
+    position: relative;
+text-align: center;
+right: -400px;
+bottom: 390px;
+}
+.comboloco2{
+    position: relative;
+text-align: center;
+right: 400px;
+}
+.descripcioncombo{
+    margin-top: 10px;
+        font-size: 14px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.imagenes{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content:space-between;
+    h5{
+        padding-top: 40px;
+        padding-left: 20px;
+        text-align:center;
+        color: black;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .imagen3{
+        margin-left: 4px;
+        border: solid 1px #624E2C;
+        height: 200px;
+        width: $imagesize;
+    }
+    .imagen2{
+        border: solid 1px #624E2C;
+        height: 200px;
+        width: $imagesize;
+    }
+    .imagen1{
+        border: solid 1px #624E2C;
+        margin-right: 4px;
+        height: 200px;
+        width: $imagesize;
+    }
+    .video1{
+        margin-top: 20px;
+        height: 515px;
+        width: 912px;
+        border: solid 1px #624E2C;
+        margin-bottom: 12px;
+    }
+    .video2{
+        margin-top: 12px;
+        height: 515px;
+        width: 912px;
+        border: solid 1px #624E2C;
+        margin-bottom: 20px;
+    }
+}
+.card-text{
+    color: white;
+}
