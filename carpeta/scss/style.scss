@@ -1,4 +1,6 @@
 @import "variable.scss";
+@import "maps.scss";
+@import "mixin.scss";
 *{
     margin: 0px;
     padding: 0px;
@@ -36,15 +38,6 @@ h2{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
-h4{
-    background-color:#fff59d;
-    padding: 10px;
-    text-align:left ;
-    position: relative;
-        font-size: 14px;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-}
 .redes{
     margin: 5px;
     display: grid;
@@ -69,7 +62,7 @@ h4{
 }
 .encuesta {
     text-align: justify;
-    border: solid 2px gray;
+    border: map-get($colorborder, borde_encuesta);
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -82,7 +75,6 @@ h3{
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
 }
-
 .link{
     padding-top: 20px;
     text-align: center;
@@ -118,49 +110,31 @@ h3{
     font-family: 'Roboto', sans-serif;
 }
 .camionero{
-    width: $imagesize;
-    height: $imagesize;
-    border: $imageborder;
+    @include imagenes;
 }
 .mategral{
-    width: $imagesize;
-    height: $imagesize;
-    border: $imageborder;
+    @include imagenes;
 }
 .imperial{
-    width: $imagesize;
-    height: $imagesize;
-    border: $imageborder;
+    @include imagenes;
 }
 .bombillametal{
-    width: $imagesize;
-    height: $imagesize;
-    border: $imageborder;
+    @include imagenes;
 }
 .personalizadas{
-    width: $imagesize;
-    height: $imagesize;
-    border: $imageborder;
+    @include imagenes;
 }
 .bombillaregular{
-    width: $imagesize;
-    height: $imagesize;
-    border: $imageborder;
+    @include imagenes;
 }
 .picoloro{
-    width: $imagesize;
-    height: $imagesize;
-    border: $imageborder;
+    @include imagenes;
 }
 .termoacero{
-    width: $imagesize;
-    height: $imagesize;
-    border: $imageborder;
+    @include imagenes;
 }
 .combo1{
-    width: $imagesize;
-    height: $imagesize;
-    border: $imageborder;
+    @include imagenes;
 }
 .comboloco1{
     position: relative;
@@ -194,35 +168,29 @@ right: 400px;
         font-family: 'Roboto', sans-serif;
     }
     .imagen3{
-        margin-left: 4px;
-        border: solid 1px #624E2C;
-        height: 200px;
-        width: $imagesize;
+        margin-left: 4px !important;
+        @extend .imagen2
     }
     .imagen2{
-        border: solid 1px #624E2C;
+        border: map-get($colorborder, borde_inicio);
         height: 200px;
         width: $imagesize;
     }
     .imagen1{
-        border: solid 1px #624E2C;
-        margin-right: 4px;
-        height: 200px;
-        width: $imagesize;
+        margin-right: 4px !important;
+        @extend .imagen2
     }
     .video1{
         margin-top: 20px;
         height: 515px;
         width: 912px;
-        border: solid 1px #624E2C;
+        border: map-get($colorborder, borde_inicio);
         margin-bottom: 12px;
     }
     .video2{
-        margin-top: 12px;
-        height: 515px;
-        width: 912px;
-        border: solid 1px #624E2C;
-        margin-bottom: 20px;
+        @extend .video1;
+        margin-top: 12px !important;
+        margin-bottom: 20px !important;
     }
 }
 .card-text{

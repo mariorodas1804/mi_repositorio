@@ -34,15 +34,6 @@ h2 {
   font-size: 20px;
   font-family: 'Roboto', sans-serif; }
 
-h4 {
-  background-color: #fff59d;
-  padding: 10px;
-  text-align: left;
-  position: relative;
-  font-size: 14px;
-  color: black;
-  font-family: 'Roboto', sans-serif; }
-
 .redes {
   margin: 5px;
   display: grid;
@@ -116,47 +107,65 @@ h3 {
 .camionero {
   width: 300px;
   height: 300px;
-  border: solid #624E2C; }
+  border: solid #624E2C;
+  margin-left: 2vh;
+  margin-bottom: 2vh; }
 
 .mategral {
   width: 300px;
   height: 300px;
-  border: solid #624E2C; }
+  border: solid #624E2C;
+  margin-left: 2vh;
+  margin-bottom: 2vh; }
 
 .imperial {
   width: 300px;
   height: 300px;
-  border: solid #624E2C; }
+  border: solid #624E2C;
+  margin-left: 2vh;
+  margin-bottom: 2vh; }
 
 .bombillametal {
   width: 300px;
   height: 300px;
-  border: solid #624E2C; }
+  border: solid #624E2C;
+  margin-left: 2vh;
+  margin-bottom: 2vh; }
 
 .personalizadas {
   width: 300px;
   height: 300px;
-  border: solid #624E2C; }
+  border: solid #624E2C;
+  margin-left: 2vh;
+  margin-bottom: 2vh; }
 
 .bombillaregular {
   width: 300px;
   height: 300px;
-  border: solid #624E2C; }
+  border: solid #624E2C;
+  margin-left: 2vh;
+  margin-bottom: 2vh; }
 
 .picoloro {
   width: 300px;
   height: 300px;
-  border: solid #624E2C; }
+  border: solid #624E2C;
+  margin-left: 2vh;
+  margin-bottom: 2vh; }
 
 .termoacero {
   width: 300px;
   height: 300px;
-  border: solid #624E2C; }
+  border: solid #624E2C;
+  margin-left: 2vh;
+  margin-bottom: 2vh; }
 
 .combo1 {
   width: 300px;
   height: 300px;
-  border: solid #624E2C; }
+  border: solid #624E2C;
+  margin-left: 2vh;
+  margin-bottom: 2vh; }
 
 .comboloco1 {
   position: relative;
@@ -189,31 +198,22 @@ h3 {
     font-size: 15px;
     font-family: 'Roboto', sans-serif; }
   .imagenes .imagen3 {
-    margin-left: 4px;
-    border: solid 1px #624E2C;
-    height: 200px;
-    width: 300px; }
-  .imagenes .imagen2 {
+    margin-left: 4px !important; }
+  .imagenes .imagen2, .imagenes .imagen3, .imagenes .imagen1 {
     border: solid 1px #624E2C;
     height: 200px;
     width: 300px; }
   .imagenes .imagen1 {
-    border: solid 1px #624E2C;
-    margin-right: 4px;
-    height: 200px;
-    width: 300px; }
-  .imagenes .video1 {
+    margin-right: 4px !important; }
+  .imagenes .video1, .imagenes .video2 {
     margin-top: 20px;
     height: 515px;
     width: 912px;
     border: solid 1px #624E2C;
     margin-bottom: 12px; }
   .imagenes .video2 {
-    margin-top: 12px;
-    height: 515px;
-    width: 912px;
-    border: solid 1px #624E2C;
-    margin-bottom: 20px; }
+    margin-top: 12px !important;
+    margin-bottom: 20px !important; }
 
 .card-text {
   color: white; }
