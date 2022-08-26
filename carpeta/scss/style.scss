@@ -6,18 +6,15 @@
     padding: 0px;
 }
 body{
-    display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, #c5bd76, #c7ad70, #c59e6e, #bf906e, #b6836f);}
-
+    background-image: linear-gradient(to bottom, #fff59d, #fdeea4, #f9e7ab, #f3e1b3, #ecdbba);
+}
 header{
     background-color:#fff59d;
     width: 100%;
     .logo{
-        width: 90px;
-        height: 90px;
+        width: 120px;
+        height: 120px;
     }
 }
 .titulo{
@@ -35,8 +32,8 @@ h2{
     padding-left: 20px;
     text-align:center;
     color: black;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif black;
 }
 .redes{
     margin: 5px;
@@ -52,13 +49,6 @@ h2{
     font-size: 14px;
     color: black;
     font-family: 'Roboto', sans-serif;
-}
-@media screen and (max-width:768px){
-    .redes{
-        display:grid ;
-        grid-template-rows: auto auto auto;
-        align-items: stretch;
-    }
 }
 .encuesta {
     text-align: justify;
@@ -84,21 +74,15 @@ h3{
 .imagen4{
     left: 302px;
 }
-.visualizacionmates{
-    display: grid;
-    justify-items:stretch;
-    align-items: center;
-    width: 99%;
-    grid-template-rows: auto auto auto;
-    grid-column-gap: 10px;
-    grid-template-columns: 100%;
-    grid-row-gap: 10px;
+.visualizacion{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 .visualizacioncombo{
     margin-top: 50px;
 }
 .descripcion{
-    text-align:center ;
+    text-align: start;
         font-size: 18px;
     color: black;
     font-family: 'Roboto', sans-serif;
@@ -134,20 +118,10 @@ h3{
     @include imagenes;
 }
 .combo1{
-    @include imagenes;
-}
-.comboloco1{
-    position: relative;
-text-align: center;
-right: -400px;
-bottom: 390px;
-}
-.comboloco2{
-    position: relative;
-text-align: center;
-right: 400px;
+    @include comboloco1;
 }
 .descripcioncombo{
+    text-align: center;
     margin-top: 10px;
         font-size: 14px;
     color: black;
@@ -183,7 +157,7 @@ right: 400px;
     .video1{
         margin-top: 20px;
         height: 515px;
-        width: 912px;
+        width: 61vw;
         border: map-get($colorborder, borde_inicio);
         margin-bottom: 12px;
     }
@@ -195,4 +169,12 @@ right: 400px;
 }
 .card-text{
     color: white;
+}
+.bg-dark{
+    background-color: #402218 !important;
+}
+h5{
+    color: black;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
 }
