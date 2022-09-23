@@ -83,6 +83,13 @@
     margin-top: 50px; }
   
   .descripcion {
+    border-top: solid black;
+    text-align: start;
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto', sans-serif; }
+
+  .descripbot{
     text-align: start;
     font-size: 18px;
     color: black;
@@ -92,7 +99,8 @@
     text-align: right;
     font-size: 14px;
     color: black;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Roboto', sans-serif;
+    border-bottom: solid black; }
   
   .camionero {
     width: 300px;
@@ -182,8 +190,8 @@
       margin-left: 4px !important; }
     .imagenes .imagen2, .imagenes .imagen3, .imagenes .imagen1 {
       border: solid 1px #624E2C;
-      height: 20.1vw;
-      width: 20.1vw; }
+      height: 19rem;
+      width: 19rem; }
     .imagenes .imagen1 {
       margin-right: 4px !important; }
     .imagenes .video1, .imagenes .video2 {
@@ -285,4 +293,14 @@
     font-size: 25px;
     color: wheat;
     text-decoration: none;
+}
+.datos{ 
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  border: solid #402218;
+  margin-bottom: 40px;
+  width: 70%;
 }
