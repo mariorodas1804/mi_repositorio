@@ -48,7 +48,7 @@ h2 {
   font-family: 'Roboto', sans-serif; }
 
 .encuesta {
-  width: 900px;
+  width: 90%;
   border: solid 2px gray;
   font-family: 'Roboto', sans-serif;
   margin-top: 80px;
@@ -191,8 +191,9 @@ h3 {
 
 .imagenes .imagen2, .imagenes .imagen3, .imagenes .imagen1 {
   border: solid 1px #624E2C;
-  height: 19rem;
-  width: 19rem; }
+  margin-bottom: 10px;
+  height: 22rem;
+  width: 20vw; }
 
 .imagenes .imagen1 {
   margin-right: 4px !important; }
@@ -374,3 +375,14 @@ h5 {
   border: solid #402218;
   margin-bottom: 40px;
   width: 70%; }
+
+.tabcomb {
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  border: solid #402218;
+  width: 90%;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto; }
