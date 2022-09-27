@@ -191,14 +191,14 @@
     .imagenes .imagen2, .imagenes .imagen3, .imagenes .imagen1 {
       border: solid 1px #624E2C;
       margin-bottom: 10px;
-      height: 95%;
+      height: 20vh;
       width: 20vw; }
     .imagenes .imagen1 {
       margin-right: 4px !important; }
     .imagenes .video1, .imagenes .video2 {
       margin-top: 20px;
-      height: 80vh;
-      width: 61vw;
+      height: 81vh;
+      width: 60vw;
       border: solid 1px #624E2C;
       margin-bottom: 12px; }
     .imagenes .video2 {
@@ -306,7 +306,6 @@
   width: 70%;
 }
 .tabcomb{
-  font-family: 'Roboto', sans-serif;
   text-align: justify;
   font-family: 'Roboto', sans-serif;
   border: solid #402218;
@@ -315,4 +314,8 @@
   margin-bottom: 40px; 
   margin-left: auto;
   margin-right: auto;
+}
+.card-text{
+  color: black;
+  font-family: 'Roboto', sans-serif
 }
